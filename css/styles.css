@@ -1,26 +1,26 @@
 h1{
-	font-family: "Open Sans","Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-family: "Lato", sans-serif;
 	font-size: 60px;
 	line-height: 80px;
 	color: white;
-	font-weight: 100; 
+	font-weight: 300; 
 }
 
 h2{
-	font-family: "Open Sans","Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-family: "Lato", sans-serif;
 	font-size: 25px;
 	line-height: 35px;
 	color: white;
-	font-weight: 100; 	
+	font-weight: 300; 	
 }
 
-a{
+.titles-header > a{
 	text-decoration: none;
-	font-family: "Open Sans","Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-family: "Lato", sans-serif;
 	font-size: 25px;
 	line-height: 30px;
 	color: white;
-	font-weight: 100;		
+	font-weight: 300;		
 }
 
 a:hover{
@@ -29,6 +29,10 @@ a:hover{
 
 i{
 	margin: 10px;
+}
+
+footer a{
+	text-decoration: none;
 }
 
 .main-header {
@@ -60,6 +64,53 @@ i{
       flex-direction: row;
    }
 
-.img-cont > a > img{
+.img-cont img{
 	width: 350px;
+}
+
+footer{
+	width: 1200px;
+	margin: 25px auto 5px;
+}
+
+footer p, footer a, footer li{
+	font-size: 10px;
+	font-family: verdana, sans-serif;
+}
+
+footer p, footer li{
+	color: gray;
+		display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 5px;
+}
+
+.left-aligns{
+	display: inline-block;
+	float: left;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.right-aligns{
+	display: inline-block;
+	float: right;
+}
+/*
+.left-aligns::after{
+	clear: left;
+}
+
+.right-aligns::after{
+	clear: right;
+}*/
+
+
+.copyright-text{
+	clear: both;
+}
+
+.copyright-text *{
+	display: inline;
 }
