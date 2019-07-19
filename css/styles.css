@@ -44,3 +44,22 @@ i{
 	-webkit-justify-content: center;
 	justify-content: center;
 }
+
+
+.flex-cont
+   {
+      /* basic styling */
+      width: 1400px;
+      margin: auto;
+
+      /* flexbox setup */
+      display: -webkit-flex;
+      -webkit-flex-direction: row;
+
+      display: flex;
+      flex-direction: row;
+   }
+
+.img-cont > a > img{
+	width: 350px;
+}
