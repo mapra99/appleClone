@@ -73,7 +73,12 @@ footer a{
 	border-right: none;
 }
 
-.nav-header li a{
+.fa-apple{
+	font-size: 1em;
+	margin:0;
+}
+
+.anch{
 	display: block;
 	padding: 10px 0;
 	width: 105px;
