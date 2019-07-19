@@ -105,11 +105,8 @@ footer a{
 
 .flex-cont
 {
-	/* basic styling */
 	width: 1400px;
 	margin: auto;
-
-	/* flexbox setup */
 	display: -webkit-flex;
 	-webkit-flex-direction: row;
 
@@ -150,20 +147,11 @@ footer p, footer li{
 	display: inline-block;
 	float: right;
 }
-/*
-.left-aligns::after{
-	clear: left;
+
+.copyright-text{
+	clear: both;
 }
 
-.right-aligns::after{
-	clear: right;
-	}*/
-
-
-	.copyright-text{
-		clear: both;
-	}
-
-	.copyright-text *{
-		display: inline;
-	}
+.copyright-text *{
+	display: inline;
+}
