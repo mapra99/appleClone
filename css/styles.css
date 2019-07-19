@@ -87,6 +87,21 @@ footer a{
 	font-size: 12px;
 }
 
+.nav-header li a:hover{
+	background: linear-gradient(0, rgb(75,75,75) 50%, rgb(50,50,50) 50%);
+}
+
+.nav-header li input{
+	border-radius: 10px;
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 20px;
+	width: 120px;
+
+}
+
+
 .flex-cont
 {
 	/* basic styling */
