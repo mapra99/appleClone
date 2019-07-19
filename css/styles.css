@@ -37,7 +37,7 @@ footer a{
 
 .main-header {
 	width: 1400px;
-	height: 500px;
+	height: 600px;
 	background: #fff url("../images/your_verse_hero.jpg") 0 100% no-repeat;
 	margin: auto;
 	text-align: center;
@@ -49,6 +49,14 @@ footer a{
 	justify-content: center;
 }
 
+.nav-header{
+	display: inline-block;
+	background-color: black;
+	}
+
+.nav-header li{
+	display: inline;
+	}
 
 .flex-cont
    {
