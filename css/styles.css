@@ -53,17 +53,29 @@ footer a{
 	display: inline-block;
 	background: linear-gradient(0, rgb(124,124,124) 50%, rgb(99,99,99) 50%);
 	margin-bottom: 50px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 0 gray;
+	border: gray 0.5px;
 }
 
-.nav-header li{
+.nav-button{
 	display: inline-block;
 	border-left: 1px;
 	border-right: 1px;
 	border-color: black;
 	border-right-style: solid;
 	border-left-style: solid;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	text-shadow: 0 -1px 0 black;
+}
 
-	font-size: 0;
+.nav-start{
+	border-left: none;
+}
+
+.nav-end{
+	border-right: none;
 }
 
 .nav-header li a{
@@ -72,12 +84,9 @@ footer a{
 	width: 105px;
 	text-decoration: none;
 	color: white;
-	font-size: 15px;
+	font-size: 12px;
 }
 
-.apple{
-	font-size: 20px;
-}
 .flex-cont
 {
 	/* basic styling */
