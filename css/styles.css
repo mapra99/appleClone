@@ -51,16 +51,25 @@ footer a{
 
 .nav-header{
 	display: inline-block;
-	background-color: black;
+	background: linear-gradient(0, rgb(124,124,124) 50%, rgb(99,99,99) 50%);
+	margin-bottom: 50px;
 }
 
 .nav-header li{
 	display: inline-block;
+	border-left: 1px;
+	border-right: 1px;
+	border-color: black;
+	border-right-style: solid;
+	border-left-style: solid;
+
+	font-size: 0;
 }
 
 .nav-header li a{
 	display: block;
-	padding: 10px 25px;
+	padding: 10px 0;
+	width: 105px;
 	text-decoration: none;
 	color: white;
 	font-size: 15px;
